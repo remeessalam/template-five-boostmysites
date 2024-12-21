@@ -38,7 +38,7 @@ const FormComponent = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message from NEXTGENAI",
+      subject: "You have a new message from [company name]",
       body: emailBody,
     };
 
